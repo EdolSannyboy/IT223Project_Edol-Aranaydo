@@ -91,16 +91,14 @@ img{
 }
 
 .home{
-    max-width: 1400px;
-    margin: auto;
+    height: 100vh;
     width: 100%;
-    min-height: 700px;
+    background-color: black;
+    background-image: url(picture/HD\ car.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
-    background: url(picture/HD\ car.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center left;
 }
 .home-text{
     padding-left: 100px;
