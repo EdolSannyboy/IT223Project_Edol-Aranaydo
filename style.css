@@ -189,6 +189,7 @@ img{
 .about-img{
     flex: 2 2 15rem;
     padding: 10px;  
+    border-radius: 0.5rem;
 }
 .about-text{
     flex: 1 1 21rem;
@@ -289,6 +290,7 @@ img{
     background: var(--text-color);
     color: #f6f6f6;
     border-top: 2px solid var(--main-color);
+    list-style: none;
 }
 .footer-container{
     display: flex;
@@ -303,18 +305,6 @@ img{
 .footer-container .footer-box{
     display: flex; 
     flex-direction: column;
-}
-.social{
-    display: flex;
-    align-items: center;
-}
-.social a{
-    font-size: 24px;
-    color: var(--bg-color);
-    margin-right: 1rem;
-}
-.social a:hover{
-    color: var(--main-color);
 }
 .footer-box h3{
     font-size: 1.1rem;
@@ -361,9 +351,7 @@ img{
     }
 }
 @media (max-width: 768px){
-    #menu-icon{
-        display: initial;
-    }
+
     .navbar{
         position: absolute;
         top: 100%;
