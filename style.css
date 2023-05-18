@@ -34,6 +34,10 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px 35px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
 }
 #menu-icon{
     font-size: 50px;
@@ -51,6 +55,7 @@ header{
 .navbar{
     display: flex;
     column-gap: 2rem;
+    margin: 0;
 }
 .navbar a{
     color: var(--text-color);
@@ -317,6 +322,7 @@ img{
 .footer-box p{
     color: #818181;
     margin-bottom: 10px;
+    text-decoration: none;
 }
  
 .footer-box a:hover{
@@ -358,4 +364,3 @@ img{
         display: block;
     }
 }
-
