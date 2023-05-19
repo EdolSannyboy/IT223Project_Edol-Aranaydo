@@ -335,12 +335,12 @@ img{
     color: var(--bg-color);
     background: var(--text-color);
 }
-@media (max-width: 1560px){
+@media (max-width: 700px){
     header{
         padding: 15px 40px;
     }
 }
-@media (max-width: 1140px) {
+@media (max-width: 400px) {
     section{
         padding: 50px 8%;
     }
